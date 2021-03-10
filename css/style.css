@@ -1,0 +1,90 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #af9501;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+}
+
+.carousel-item {
+  height: 70rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.divider {
+  margin: 5rem;
+}
+
+#imag {
+  border-radius: 15%;
+  margin-top: 50px;
+}
+
+.carousel-caption {
+  color: #af9501;
+}
+
+#longLine {
+  width: auto;
+  height: 100vh;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  opacity: 50%;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #af9501;
+}
+
+.skills .progress .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: lightgrey;
+}
+
+.skills .progress-bar-wrap .progress-bar {
+  height: 10px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  background-color: #af9501;
+}
+
+#selfie {
+  width: 400px;
+  height: auto;
+}
+
+#soccer {
+  width: 400px;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */

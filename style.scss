@@ -1,0 +1,92 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgb(175, 149, 1);
+}
+
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+}
+
+
+.carousel-item {
+    height: 70rem;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.divider {
+    margin: 5rem; 
+}
+
+#imag{
+    border-radius: 15%;
+    margin-top: 50px;
+}
+
+.carousel-caption{
+    color: rgb(175, 149, 1);
+}
+
+#longLine{
+    width: auto;
+    height: 100vh;
+    transform: rotate(90deg);
+    opacity: 50%;
+
+}
+
+.skills {
+    .progress {
+        height: 60px;
+        display: block;
+        background: none;
+        border-radius: 0;
+
+        .skill {
+            padding: 10px 0;
+            margin: 0;
+            text-transform: uppercase;
+            display: block;
+            font-weight: 500;
+            font-family: sans-serif;
+            color: rgb(175, 149, 1);
+        }
+
+        .val {
+            float: right;
+            font-style: normal;
+        }
+    }
+
+    .progress-bar-wrap {
+        background: lightgrey;
+
+        .progress-bar {
+            height: 10px;
+            transition: 0.9s;
+            background-color: rgb(175, 149, 1);
+        }
+    }
+}
+
+#selfie{
+    width: 400px;
+    height: auto;
+}
+
+#soccer{
+    width: 400px;
+    height: auto;
+}
+

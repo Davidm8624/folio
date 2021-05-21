@@ -1,1 +1,1 @@
-$("body").css("cursor", "cell");
+$("body").css("cursor", "default");
